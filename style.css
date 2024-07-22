@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.login a{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.search-bar input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.search-bar input[type="submit"]:hover {
+    background-color: #45a049;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+.class1{
+    display: inline-flex;
+    margin: 20px;
+}
+
+.icons ul li{
+    display: inline;    
+}
+.About{
+    color: #fff;
+    width: 300px;
+}
+.Useful{
+    color: #fff;
+    width: 300px;
+    text-decoration: none;
+}
+.Contact{
+    color: #fff;
+    width: 300px;
+}
+.class2{
+    margin: 10px;
+}
+section {
+    padding: 20px;
+}
+.product {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+.product img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.cp{
+    
+    background-color: #fff;
+}
+.cp2{
+    
+    background-color: #fff;
+}

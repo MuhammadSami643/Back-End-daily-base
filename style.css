@@ -6,6 +6,13 @@ header {
     color: white;
     background-color: black;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    font-weight: bold;
 }
 nav a {
     color: white;
@@ -57,9 +64,6 @@ footer a{
     margin: 20px;
 }
 
-.icons ul li{
-    display: inline;    
-}
 .About{
     color: #fff;
     width: 300px;
@@ -92,10 +96,10 @@ section {
     margin-bottom: 10px;
 }
 .cp{
-    
-    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
 }
 .cp2{
-    
-    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
 }

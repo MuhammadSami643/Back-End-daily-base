@@ -53,7 +53,7 @@ if (a > b) {
 else if (a < b) {
     print("condition Satisfied");
 }
-else if (a=b)
+else if (a==b)
 {
     print("Both Numbers Are Equal")
 }

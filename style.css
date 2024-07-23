@@ -71,7 +71,11 @@ footer a{
 .Useful{
     color: #fff;
     width: 300px;
+    list-style: none;
     text-decoration: none;
+}
+.Useful li{
+    list-style: none;
 }
 .Contact{
     color: #fff;

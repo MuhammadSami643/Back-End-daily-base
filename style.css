@@ -149,8 +149,10 @@ section {
     padding: 8px 0px 8px 0px;
     background: seagreen;
     color: black;
+    font-weight: bold;
 }
 
     .btn:hover {
         background: lightgrey;
+        color: seagreen;
     }

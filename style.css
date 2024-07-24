@@ -125,6 +125,7 @@ section {
 
 .input-name {
     width: 90%;
+    border-radius: 50px;
     margin: 20px auto;
     position: relative;
 }
@@ -149,6 +150,7 @@ section {
     padding: 8px 0px 8px 0px;
     background: seagreen;
     color: black;
+    border-radius: 50px;
     font-weight: bold;
 }
 

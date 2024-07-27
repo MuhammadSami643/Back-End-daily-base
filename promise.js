@@ -1,5 +1,5 @@
-const promise1=new Promise((res,rej){
-    const a=2;
+const promise1=new Promise((res,rej)=>{
+    const a=3;
     if(a%2==0)
     {
         res("even");

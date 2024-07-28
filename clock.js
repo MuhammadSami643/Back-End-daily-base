@@ -1,17 +1,19 @@
-function clock() {
-    return new Promise((res) => {
-        setTimeout(() => {
-            console.log(new Date());
-            res();
-        }, 0);
+const promise1 = new Promise((res) => {
+    setInterval((res) => {
+           console.log(new Date()); 
+
+},1000);
+});
+
+const main =  () => {
+    try {
+        promise1.then((res) => {
+            console.log(res);
+
     });
-}
-
-async function run() {
-    while (true) {
-        await clock();
-        await new Promise(res => setTimeout(res, 1000));
-      }
-}
-
-run();
+ }
+  catch (error) {
+        console.log(error);
+    }
+};
+main();
